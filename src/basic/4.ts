@@ -10,5 +10,9 @@ console.log(calc(1,2));
 function customError():never {
   throw new Error('Error');
 }
-customError()
-showMessage(`Hello, it is the 4rd task`)
+if (true) {
+    showMessage(`Hello, it is the 4rd task`)
+    
+} else {
+    customError()
+}
