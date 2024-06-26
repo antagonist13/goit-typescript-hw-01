@@ -8,17 +8,13 @@ const enum DayOfWeek {
   Sunday = "Sunday"
 }
 
-const isWeekend = (day: string): void => {
+const isWeekend = (day: string): boolean => {
   const weekends = {
     [DayOfWeek.Saturday]: DayOfWeek.Saturday,
     [DayOfWeek.Sunday]: DayOfWeek.Sunday
   };
 
-  if (day === weekends.Saturday || day === weekends.Sunday) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
+return day === weekends.Saturday || day === weekends.Sunday
 };
 console.log(`Task #5`);
 
