@@ -22,4 +22,8 @@ const poly: User = {
     age: 30,
     email: 'john@example.com'
 };
+
+if (mango === poly) {
+    console.log(null);
+}
 console.log(`Task 6 Done. Great success`);

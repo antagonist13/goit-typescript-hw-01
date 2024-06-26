@@ -26,4 +26,8 @@ const page2: Page = {
   accounts: ['Alex'],
   status: 'close',
 }
+if (page1 === page2) {
+    console.log(null);
+}
+
 console.log(`Task 7 Done. Great success again`);
